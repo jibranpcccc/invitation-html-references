@@ -1,0 +1,3 @@
+qa-local/
+__pycache__/
+*.pyc

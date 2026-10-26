@@ -1,0 +1,1249 @@
+{
+  "verified_utc": "2026-10-26T17:28:54.665231+00:00",
+  "scope": "Chromium offline; desktop 1440x1100; mobile viewport 390x844; native exported image inspection",
+  "status": "passed tested functional and visual checks; limitations listed in README",
+  "primary_checks": {
+    "products": {
+      "whale-birthday": {
+        "baseline_issues": [],
+        "fields": 5,
+        "blank": [
+          {
+            "field": "name",
+            "clean_crop_exact": true,
+            "other_pixels_unchanged": true,
+            "blocked": true,
+            "issues": [
+              "Name including possessive is required."
+            ]
+          },
+          {
+            "field": "date",
+            "clean_crop_exact": true,
+            "other_pixels_unchanged": true,
+            "blocked": true,
+            "issues": [
+              "Date and year is required."
+            ]
+          },
+          {
+            "field": "time",
+            "clean_crop_exact": true,
+            "other_pixels_unchanged": true,
+            "blocked": true,
+            "issues": [
+              "Time is required."
+            ]
+          },
+          {
+            "field": "venue",
+            "clean_crop_exact": true,
+            "other_pixels_unchanged": true,
+            "blocked": true,
+            "issues": [
+              "Venue is required."
+            ]
+          },
+          {
+            "field": "rsvp",
+            "clean_crop_exact": true,
+            "other_pixels_unchanged": true,
+            "blocked": true,
+            "issues": [
+              "RSVP contact is required."
+            ]
+          }
+        ],
+        "body": [
+          {
+            "field": "date",
+            "text": "June 1",
+            "issues": [],
+            "layout": {
+              "key": "date",
+              "text": "June 1",
+              "requested": 11,
+              "actual": 11,
+              "bounds": [
+                555.566037735849,
+                1647.6509433962262,
+                120,
+                33
+              ]
+            }
+          },
+          {
+            "field": "date",
+            "text": "Saturday, September 25, 2027",
+            "issues": [
+              "Date and year does not fit at the minimum 8 pt. Shorten the text."
+            ],
+            "layout": null
+          },
+          {
+            "field": "time",
+            "text": "3 PM",
+            "issues": [],
+            "layout": {
+              "key": "time",
+              "text": "3 PM",
+              "requested": 11,
+              "actual": 11,
+              "bounds": [
+                894.1981132075471,
+                1647.6509433962262,
+                105,
+                33
+              ]
+            }
+          },
+          {
+            "field": "time",
+            "text": "10:30 AM - 11:45 PM",
+            "issues": [
+              "Time does not fit at the minimum 8 pt. Shorten the text."
+            ],
+            "layout": null
+          },
+          {
+            "field": "venue",
+            "text": "Sea Hall",
+            "issues": [],
+            "layout": {
+              "key": "venue",
+              "text": "Sea Hall",
+              "requested": 11,
+              "actual": 11,
+              "bounds": [
+                680.1132075471697,
+                1716.9056603773583,
+                161,
+                36
+              ]
+            }
+          },
+          {
+            "field": "venue",
+            "text": "The Grand Ocean View Pavilion and Celebration Garden",
+            "issues": [
+              "Venue does not fit at the minimum 8 pt. Shorten the text or use shorter lines."
+            ],
+            "layout": null
+          },
+          {
+            "field": "rsvp",
+            "text": "Amy",
+            "issues": [],
+            "layout": {
+              "key": "rsvp",
+              "text": "Amy",
+              "requested": 10,
+              "actual": 10,
+              "bounds": [
+                715.2452830188679,
+                1782.5377358490564,
+                78,
+                42
+              ]
+            }
+          },
+          {
+            "field": "rsvp",
+            "text": "RSVP: Christopher at christopher.family@example.com by September 15",
+            "issues": [
+              "RSVP contact does not fit at the minimum 8 pt. Shorten the text or use shorter lines."
+            ],
+            "layout": null
+          }
+        ],
+        "controls": [
+          {
+            "field": "name",
+            "patch": {
+              "bold": true
+            },
+            "changed_pixels": 97426,
+            "issues": []
+          },
+          {
+            "field": "name",
+            "patch": {
+              "fill": "#c9213a"
+            },
+            "changed_pixels": 89443,
+            "issues": []
+          },
+          {
+            "field": "date",
+            "patch": {
+              "bold": true
+            },
+            "changed_pixels": 4078,
+            "issues": []
+          },
+          {
+            "field": "date",
+            "patch": {
+              "fill": "#c9213a"
+            },
+            "changed_pixels": 3825,
+            "issues": []
+          },
+          {
+            "field": "time",
+            "patch": {
+              "bold": true
+            },
+            "changed_pixels": 2733,
+            "issues": []
+          },
+          {
+            "field": "time",
+            "patch": {
+              "fill": "#c9213a"
+            },
+            "changed_pixels": 2541,
+            "issues": []
+          },
+          {
+            "field": "venue",
+            "patch": {
+              "bold": true
+            },
+            "changed_pixels": 6352,
+            "issues": []
+          },
+          {
+            "field": "venue",
+            "patch": {
+              "fill": "#c9213a"
+            },
+            "changed_pixels": 5569,
+            "issues": []
+          },
+          {
+            "field": "rsvp",
+            "patch": {
+              "bold": true
+            },
+            "changed_pixels": 7689,
+            "issues": []
+          },
+          {
+            "field": "rsvp",
+            "patch": {
+              "fill": "#c9213a"
+            },
+            "changed_pixels": 6807,
+            "issues": []
+          },
+          {
+            "field": "name",
+            "control": "italic",
+            "value": true,
+            "changed_pixels": 103811,
+            "issues": []
+          },
+          {
+            "field": "name",
+            "control": "underline",
+            "value": true,
+            "changed_pixels": 126722,
+            "issues": []
+          },
+          {
+            "field": "name",
+            "control": "size",
+            "value": "23",
+            "changed_pixels": 103922,
+            "issues": []
+          },
+          {
+            "field": "name",
+            "control": "spacing",
+            "value": "1",
+            "changed_pixels": 90258,
+            "issues": []
+          },
+          {
+            "field": "name",
+            "control": "align",
+            "value": "left",
+            "changed_pixels": 126031,
+            "issues": []
+          },
+          {
+            "field": "name",
+            "control": "fill",
+            "value": "#d62240",
+            "changed_pixels": 89447,
+            "issues": []
+          },
+          {
+            "field": "name",
+            "control": "mode",
+            "value": "palette",
+            "changed_pixels": 51250,
+            "issues": []
+          },
+          {
+            "field": "name",
+            "control": "outlineWidth",
+            "value": "0.8",
+            "changed_pixels": 86817,
+            "issues": []
+          },
+          {
+            "field": "name",
+            "control": "shadow",
+            "value": "0.7",
+            "changed_pixels": 90713,
+            "issues": []
+          },
+          {
+            "field": "name",
+            "control": "stitch",
+            "value": false,
+            "changed_pixels": 9121,
+            "issues": []
+          },
+          {
+            "field": "name",
+            "control": "stitchColor",
+            "value": "#ffdc00",
+            "changed_pixels": 9134,
+            "issues": []
+          },
+          {
+            "field": "name",
+            "control": "grain",
+            "value": false,
+            "changed_pixels": 75520,
+            "issues": []
+          }
+        ],
+        "name_matrix": [
+          {
+            "text": "AL",
+            "issues": [],
+            "layout": {
+              "key": "name",
+              "text": "AL",
+              "requested": 68,
+              "actual": 68,
+              "bounds": [
+                639.688679245283,
+                1207.1132075471696,
+                256,
+                232
+              ]
+            }
+          },
+          {
+            "text": "al",
+            "issues": [],
+            "layout": {
+              "key": "name",
+              "text": "al",
+              "requested": 68,
+              "actual": 68,
+              "bounds": [
+                665.688679245283,
+                1209.6132075471696,
+                204,
+                227
+              ]
+            }
+          },
+          {
+            "text": "Al",
+            "issues": [],
+            "layout": {
+              "key": "name",
+              "text": "Al",
+              "requested": 68,
+              "actual": 68,
+              "bounds": [
+                654.188679245283,
+                1207.6132075471696,
+                227,
+                231
+              ]
+            }
+          },
+          {
+            "text": "NATE’S",
+            "issues": [],
+            "layout": {
+              "key": "name",
+              "text": "NATE’S",
+              "requested": 68,
+              "actual": 68,
+              "bounds": [
+                385.68867924528297,
+                1207.1132075471696,
+                764,
+                232
+              ]
+            }
+          },
+          {
+            "text": "nate’s",
+            "issues": [],
+            "layout": {
+              "key": "name",
+              "text": "nate’s",
+              "requested": 68,
+              "actual": 68,
+              "bounds": [
+                443.18867924528297,
+                1209.1132075471696,
+                649,
+                228
+              ]
+            }
+          },
+          {
+            "text": "Nate’s",
+            "issues": [],
+            "layout": {
+              "key": "name",
+              "text": "Nate’s",
+              "requested": 68,
+              "actual": 68,
+              "bounds": [
+                429.18867924528297,
+                1207.1132075471696,
+                677,
+                232
+              ]
+            }
+          },
+          {
+            "text": "CHRISTOPHER’S",
+            "issues": [],
+            "layout": {
+              "key": "name",
+              "text": "CHRISTOPHER’S",
+              "requested": 68,
+              "actual": 33.1,
+              "bounds": [
+                358.68867924528297,
+                1266.6132075471696,
+                818,
+                113
+              ]
+            }
+          },
+          {
+            "text": "christopher’s",
+            "issues": [],
+            "layout": {
+              "key": "name",
+              "text": "christopher’s",
+              "requested": 68,
+              "actual": 41.9,
+              "bounds": [
+                358.68867924528297,
+                1241.6132075471696,
+                818,
+                163
+              ]
+            }
+          },
+          {
+            "text": "Christopher’s",
+            "issues": [],
+            "layout": {
+              "key": "name",
+              "text": "Christopher’s",
+              "requested": 68,
+              "actual": 40.8,
+              "bounds": [
+                358.18867924528297,
+                1243.6132075471696,
+                819,
+                159
+              ]
+            }
+          },
+          {
+            "text": "NOEL’S",
+            "issues": [],
+            "layout": {
+              "key": "name",
+              "text": "NOEL’S",
+              "requested": 68,
+              "actual": 68,
+              "bounds": [
+                388.68867924528297,
+                1207.1132075471696,
+                758,
+                232
+              ]
+            }
+          },
+          {
+            "text": "gjpqy",
+            "issues": [],
+            "layout": {
+              "key": "name",
+              "text": "gjpqy",
+              "requested": 68,
+              "actual": 56.6,
+              "bounds": [
+                525.688679245283,
+                1207.1132075471696,
+                484,
+                232
+              ]
+            }
+          }
+        ],
+        "font_choices": [
+          {
+            "font": "Bodoni Semibold",
+            "issues": []
+          },
+          {
+            "font": "Bree",
+            "issues": []
+          },
+          {
+            "font": "Cormorant",
+            "issues": []
+          },
+          {
+            "font": "Cormorant Medium",
+            "issues": []
+          },
+          {
+            "font": "Kalam",
+            "issues": []
+          },
+          {
+            "font": "Lilita One",
+            "issues": []
+          },
+          {
+            "font": "Great Vibes",
+            "issues": []
+          }
+        ],
+        "placement_size_unchanged": true,
+        "placement_blocks": true,
+        "too_many_lines_blocked": true,
+        "invalid_settings": {
+          "blocked": true,
+          "unchanged": true
+        },
+        "all_styles_loaded": true,
+        "personalized_html_exact": true,
+        "undo_redo": true,
+        "png": {
+          "size": [
+            1500,
+            2100
+          ],
+          "dpi": [
+            299.9994,
+            299.9994
+          ]
+        },
+        "pdf": {
+          "pages": 1,
+          "points": [
+            360.0,
+            504.0
+          ]
+        },
+        "pdf_rgb_max_difference": 0,
+        "mobile": {
+          "width": 390,
+          "scroll": 390
+        },
+        "runtime_errors": [],
+        "external_requests": [],
+        "html_sha256": "a2fd3f0a604ecd34f55e7a6a36108d360f70d6d0d64b6317b8e020e97cb47bcb",
+        "final_html_sha256": "b83c16e0daa89d0c0dcbc62711fd31e76026e3ca1a5da4a3bdc4b0ff63c68c0f"
+      },
+      "pumpkin-gender-reveal": {
+        "baseline_issues": [],
+        "fields": 6,
+        "blank": [
+          {
+            "field": "date",
+            "clean_crop_exact": true,
+            "other_pixels_unchanged": true,
+            "blocked": true,
+            "issues": [
+              "Date and year is required."
+            ]
+          },
+          {
+            "field": "time",
+            "clean_crop_exact": true,
+            "other_pixels_unchanged": true,
+            "blocked": true,
+            "issues": [
+              "Time is required."
+            ]
+          },
+          {
+            "field": "venue",
+            "clean_crop_exact": true,
+            "other_pixels_unchanged": true,
+            "blocked": true,
+            "issues": [
+              "Venue is required."
+            ]
+          },
+          {
+            "field": "address",
+            "clean_crop_exact": true,
+            "other_pixels_unchanged": true,
+            "blocked": true,
+            "issues": [
+              "Address is required."
+            ]
+          },
+          {
+            "field": "rsvp",
+            "clean_crop_exact": true,
+            "other_pixels_unchanged": true,
+            "blocked": true,
+            "issues": [
+              "RSVP name and deadline is required."
+            ]
+          },
+          {
+            "field": "phone",
+            "clean_crop_exact": true,
+            "other_pixels_unchanged": true,
+            "blocked": true,
+            "issues": [
+              "RSVP phone is required."
+            ]
+          }
+        ],
+        "body": [
+          {
+            "field": "date",
+            "text": "June 1",
+            "issues": [],
+            "layout": {
+              "key": "date",
+              "text": "June 1",
+              "requested": 15,
+              "actual": 15,
+              "bounds": [
+                683.2641509433961,
+                1143.6603773584907,
+                183,
+                49
+              ]
+            }
+          },
+          {
+            "field": "date",
+            "text": "Saturday, September 25, 2027",
+            "issues": [],
+            "layout": {
+              "key": "date",
+              "text": "Saturday, September 25, 2027",
+              "requested": 15,
+              "actual": 13.1,
+              "bounds": [
+                392.76415094339615,
+                1138.6603773584907,
+                764,
+                59
+              ]
+            }
+          },
+          {
+            "field": "time",
+            "text": "3 PM",
+            "issues": [],
+            "layout": {
+              "key": "time",
+              "text": "3 PM",
+              "requested": 13,
+              "actual": 13,
+              "bounds": [
+                713.0188679245282,
+                1223.245283018868,
+                115,
+                37
+              ]
+            }
+          },
+          {
+            "field": "time",
+            "text": "10:30 AM - 11:45 PM",
+            "issues": [
+              "Time does not fit at the minimum 9 pt. Shorten the text."
+            ],
+            "layout": null
+          },
+          {
+            "field": "venue",
+            "text": "Sea Hall",
+            "issues": [],
+            "layout": {
+              "key": "venue",
+              "text": "Sea Hall",
+              "requested": 15,
+              "actual": 15,
+              "bounds": [
+                675.1792452830189,
+                1352.6792452830186,
+                202,
+                47
+              ]
+            }
+          },
+          {
+            "field": "venue",
+            "text": "The Grand Ocean View Pavilion and Celebration Garden",
+            "issues": [
+              "Venue does not fit at the minimum 9 pt. Shorten the text or use shorter lines."
+            ],
+            "layout": null
+          },
+          {
+            "field": "address",
+            "text": "12 Ocean Road",
+            "issues": [],
+            "layout": {
+              "key": "address",
+              "text": "12 Ocean Road",
+              "requested": 10,
+              "actual": 10,
+              "bounds": [
+                652.6792452830189,
+                1426.688679245283,
+                247,
+                32
+              ]
+            }
+          },
+          {
+            "field": "address",
+            "text": "123 Celebration Avenue, Franklin, Tennessee 37064",
+            "issues": [
+              "Address does not fit at the minimum 9 pt. Shorten the text or use shorter lines."
+            ],
+            "layout": null
+          },
+          {
+            "field": "rsvp",
+            "text": "Amy",
+            "issues": [],
+            "layout": {
+              "key": "rsvp",
+              "text": "Amy",
+              "requested": 10,
+              "actual": 10,
+              "bounds": [
+                733.5566037735848,
+                1539.2264150943395,
+                81,
+                39
+              ]
+            }
+          },
+          {
+            "field": "rsvp",
+            "text": "RSVP: Christopher at christopher.family@example.com by September 15",
+            "issues": [
+              "RSVP name and deadline does not fit at the minimum 9 pt. Shorten the text or use shorter lines."
+            ],
+            "layout": null
+          },
+          {
+            "field": "phone",
+            "text": "555-0100",
+            "issues": [],
+            "layout": {
+              "key": "phone",
+              "text": "555-0100",
+              "requested": 10,
+              "actual": 10,
+              "bounds": [
+                683.8490566037735,
+                1594.2924528301887,
+                179,
+                35
+              ]
+            }
+          },
+          {
+            "field": "phone",
+            "text": "+1 (555) 123-4567",
+            "issues": [
+              "RSVP phone does not fit at the minimum 9 pt. Shorten the text."
+            ],
+            "layout": null
+          }
+        ],
+        "controls": [
+          {
+            "field": "date",
+            "patch": {
+              "bold": true
+            },
+            "changed_pixels": 12963,
+            "issues": []
+          },
+          {
+            "field": "date",
+            "patch": {
+              "fill": "#c9213a"
+            },
+            "changed_pixels": 12396,
+            "issues": []
+          },
+          {
+            "field": "time",
+            "patch": {
+              "bold": true
+            },
+            "changed_pixels": 3556,
+            "issues": []
+          },
+          {
+            "field": "time",
+            "patch": {
+              "fill": "#c9213a"
+            },
+            "changed_pixels": 4045,
+            "issues": []
+          },
+          {
+            "field": "venue",
+            "patch": {
+              "bold": true
+            },
+            "changed_pixels": 8484,
+            "issues": []
+          },
+          {
+            "field": "venue",
+            "patch": {
+              "fill": "#c9213a"
+            },
+            "changed_pixels": 7581,
+            "issues": []
+          },
+          {
+            "field": "address",
+            "patch": {
+              "bold": true
+            },
+            "changed_pixels": 7150,
+            "issues": []
+          },
+          {
+            "field": "address",
+            "patch": {
+              "fill": "#c9213a"
+            },
+            "changed_pixels": 5864,
+            "issues": []
+          },
+          {
+            "field": "rsvp",
+            "patch": {
+              "bold": true
+            },
+            "changed_pixels": 6516,
+            "issues": []
+          },
+          {
+            "field": "rsvp",
+            "patch": {
+              "fill": "#c9213a"
+            },
+            "changed_pixels": 4714,
+            "issues": []
+          },
+          {
+            "field": "phone",
+            "patch": {
+              "bold": true
+            },
+            "changed_pixels": 3542,
+            "issues": []
+          },
+          {
+            "field": "phone",
+            "patch": {
+              "fill": "#c9213a"
+            },
+            "changed_pixels": 3225,
+            "issues": []
+          },
+          {
+            "field": "date",
+            "control": "italic",
+            "value": true,
+            "changed_pixels": 13118,
+            "issues": []
+          },
+          {
+            "field": "date",
+            "control": "underline",
+            "value": true,
+            "changed_pixels": 14678,
+            "issues": []
+          },
+          {
+            "field": "date",
+            "control": "size",
+            "value": "9",
+            "changed_pixels": 15842,
+            "issues": []
+          },
+          {
+            "field": "date",
+            "control": "spacing",
+            "value": "1",
+            "changed_pixels": 18525,
+            "issues": []
+          },
+          {
+            "field": "date",
+            "control": "align",
+            "value": "left",
+            "changed_pixels": 20410,
+            "issues": []
+          },
+          {
+            "field": "date",
+            "control": "fill",
+            "value": "#d62240",
+            "changed_pixels": 12449,
+            "issues": []
+          },
+          {
+            "field": "date",
+            "control": "mode",
+            "value": "palette",
+            "changed_pixels": 10506,
+            "issues": []
+          },
+          {
+            "field": "date",
+            "control": "outlineWidth",
+            "value": "0.8",
+            "changed_pixels": 21041,
+            "issues": []
+          },
+          {
+            "field": "date",
+            "control": "shadow",
+            "value": "0.7",
+            "changed_pixels": 19495,
+            "issues": []
+          }
+        ],
+        "name_matrix": [],
+        "font_choices": [
+          {
+            "font": "Bodoni Semibold",
+            "issues": []
+          },
+          {
+            "font": "Bree",
+            "issues": []
+          },
+          {
+            "font": "Cormorant",
+            "issues": []
+          },
+          {
+            "font": "Cormorant Medium",
+            "issues": []
+          },
+          {
+            "font": "Kalam",
+            "issues": []
+          },
+          {
+            "font": "Lilita One",
+            "issues": []
+          },
+          {
+            "font": "Great Vibes",
+            "issues": []
+          }
+        ],
+        "placement_size_unchanged": true,
+        "placement_blocks": true,
+        "too_many_lines_blocked": true,
+        "invalid_settings": {
+          "blocked": true,
+          "unchanged": true
+        },
+        "all_styles_loaded": true,
+        "personalized_html_exact": true,
+        "undo_redo": true,
+        "png": {
+          "size": [
+            1500,
+            2100
+          ],
+          "dpi": [
+            299.9994,
+            299.9994
+          ]
+        },
+        "pdf": {
+          "pages": 1,
+          "points": [
+            360.0,
+            504.0
+          ]
+        },
+        "pdf_rgb_max_difference": 0,
+        "mobile": {
+          "width": 390,
+          "scroll": 390
+        },
+        "runtime_errors": [],
+        "external_requests": [],
+        "html_sha256": "e132b6a9d5ad896a164a736322161ffca96355636ea90a187caf45e14f6caaa5",
+        "final_html_sha256": "8cb27a80bae6bc80d1a53ebc30586912f48ecae6e8067d31a017424bf95117f3"
+      }
+    },
+    "failures": [],
+    "fonts": {
+      "Bodoni Semibold": {
+        "missing_english_glyphs": [],
+        "sha256": "82ada9414371693196675293d4ab7e012018ca05de134f310f45c60c6be8490f"
+      },
+      "Bree": {
+        "missing_english_glyphs": [],
+        "sha256": "216c4e5c01053d333a47532911dab16c097bd697cec9db23698e56ee4b4dc172"
+      },
+      "Cormorant": {
+        "missing_english_glyphs": [],
+        "sha256": "285de5f4761d7ae657a0b55757e6a17160e3b437e0111e4aa257aee074e1f58e"
+      },
+      "Cormorant Medium": {
+        "missing_english_glyphs": [],
+        "sha256": "e7fd5d31a76bdf423da28e8f870fa2d06c2da50d25279b3de09235c91aa69dee"
+      },
+      "Kalam": {
+        "missing_english_glyphs": [],
+        "sha256": "3c3004b6be9046dc2d997fab5aea904b94d3819a87bcc0b34a8140089d7cc14f"
+      },
+      "Lilita One": {
+        "missing_english_glyphs": [],
+        "sha256": "f50746f00b3ef85ec8007d9dbceff1b4fb19636447cfa474c657ec749ba84292"
+      },
+      "Great Vibes": {
+        "missing_english_glyphs": [],
+        "sha256": "0ba375f48aa5afac708372cdc543d923b88531c236492ff40cd6bd3d5095a788"
+      }
+    }
+  },
+  "final_affected_checks": {
+    "products": {
+      "whale-birthday": {
+        "wrap_changes_pixels": false,
+        "wrap_off_issues": [
+          "Date and year does not fit at the minimum 8 pt. Shorten the text."
+        ],
+        "wrap_on_issues": [
+          "Date and year does not fit at the minimum 8 pt. Shorten the text or use shorter lines."
+        ],
+        "line_height_changes_pixels": true,
+        "multiline_underline_issues": [],
+        "underline_each_field": [
+          {
+            "key": "name",
+            "changed_pixels": 126722,
+            "issues": []
+          },
+          {
+            "key": "date",
+            "changed_pixels": 4762,
+            "issues": []
+          },
+          {
+            "key": "time",
+            "changed_pixels": 3538,
+            "issues": []
+          },
+          {
+            "key": "venue",
+            "changed_pixels": 8426,
+            "issues": []
+          },
+          {
+            "key": "rsvp",
+            "changed_pixels": 9588,
+            "issues": []
+          }
+        ],
+        "color_controls": [
+          {
+            "control": "outline",
+            "changed_pixels": 19364
+          },
+          {
+            "control": "shadowColor",
+            "changed_pixels": 15757
+          },
+          {
+            "control": "palette0",
+            "changed_pixels": 36540
+          },
+          {
+            "control": "palette1",
+            "changed_pixels": 36620
+          },
+          {
+            "control": "palette2",
+            "changed_pixels": 12532
+          }
+        ],
+        "stress_blocked": true,
+        "stress_message": [
+          "Name including possessive does not fit at the minimum 23 pt. Shorten the text."
+        ],
+        "final_personalized_exact": true,
+        "pdf_matches_png_exactly": true,
+        "png_size": [
+          1500,
+          2100
+        ],
+        "png_dpi": [
+          299.9994,
+          299.9994
+        ],
+        "pdf_points": [
+          360.0,
+          504.0
+        ],
+        "html_sha256": "b83c16e0daa89d0c0dcbc62711fd31e76026e3ca1a5da4a3bdc4b0ff63c68c0f",
+        "png_sha256": "c36e5464c0745fb9a31e1326d95c640e8be890ae6ba205ec5d294ed595a84315",
+        "errors": [],
+        "wrap_insufficient_height_correctly_blocked": true,
+        "multiline_underline_field": "date"
+      },
+      "pumpkin-gender-reveal": {
+        "wrap_changes_pixels": true,
+        "wrap_off_issues": [],
+        "wrap_on_issues": [],
+        "line_height_changes_pixels": true,
+        "multiline_underline_issues": [],
+        "underline_each_field": [
+          {
+            "key": "date",
+            "changed_pixels": 15254,
+            "issues": []
+          },
+          {
+            "key": "time",
+            "changed_pixels": 4397,
+            "issues": []
+          },
+          {
+            "key": "venue",
+            "changed_pixels": 10432,
+            "issues": []
+          },
+          {
+            "key": "address",
+            "changed_pixels": 8245,
+            "issues": []
+          },
+          {
+            "key": "rsvp",
+            "changed_pixels": 6782,
+            "issues": []
+          },
+          {
+            "key": "phone",
+            "changed_pixels": 4042,
+            "issues": []
+          }
+        ],
+        "color_controls": [
+          {
+            "control": "outline",
+            "changed_pixels": 18741
+          },
+          {
+            "control": "shadowColor",
+            "changed_pixels": 16970
+          },
+          {
+            "control": "palette0",
+            "changed_pixels": 5889
+          },
+          {
+            "control": "palette1",
+            "changed_pixels": 5023
+          },
+          {
+            "control": "palette2",
+            "changed_pixels": 15554
+          }
+        ],
+        "stress_blocked": true,
+        "stress_message": [
+          "Date and year does not fit at the minimum 9 pt. Shorten the text or use shorter lines."
+        ],
+        "final_personalized_exact": true,
+        "pdf_matches_png_exactly": true,
+        "png_size": [
+          1500,
+          2100
+        ],
+        "png_dpi": [
+          299.9994,
+          299.9994
+        ],
+        "pdf_points": [
+          360.0,
+          504.0
+        ],
+        "html_sha256": "8cb27a80bae6bc80d1a53ebc30586912f48ecae6e8067d31a017424bf95117f3",
+        "png_sha256": "3cd5dbb75af740125df17a746e6a8a08500003dc6ebc1a57349892d420034d79",
+        "errors": []
+      }
+    },
+    "failures": []
+  },
+  "art_preservation": {
+    "whale": {
+      "changed_native_pixels": 176953,
+      "changed_outside_authorized_regions": 0
+    },
+    "gender": {
+      "changed_native_pixels": 106994,
+      "changed_outside_authorized_regions": 0
+    }
+  },
+  "notes": [
+    "Primary suite ran before the final per-line underline refinement. Final affected checks reverified every field underline, multiline underline/line height, independent edge/palette colors, settings/HTML reopening, stress rejection, and final PNG/PDF exports on the final HTML hashes.",
+    "Both wrap states of the deliberately overlong whale date correctly blocked at its 8 pt minimum. A shorter two-line date rendered successfully and line-height changes correctly triggered fitting errors when too tall.",
+    "No approved shop logo/name was supplied. Current supplied interface style retained.",
+    "Original illustration sources have 212 ppi effective detail at 5x7. Output PNG dimensions and 300 ppi metadata do not increase source detail."
+  ],
+  "unfinished_settings_check": {
+    "whale-birthday": {
+      "unfinished_save_and_load": true,
+      "print_exports_remain_blocked": true
+    },
+    "pumpkin-gender-reveal": {
+      "unfinished_save_and_load": true,
+      "print_exports_remain_blocked": true
+    }
+  },
+  "final_assertion_failures": []
+}
