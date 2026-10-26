@@ -7,7 +7,7 @@ Two self-contained invitation editors for use as implementation references by an
 | Whale birthday | [Editor](whale-birthday/Editor.html) | [PNG](whale-birthday/Preview.png) |
 | Pumpkin gender reveal | [Editor](pumpkin-gender-reveal/Editor.html) | [PNG](pumpkin-gender-reveal/Preview.png) |
 
-Download an Editor.html file and open it in a current desktop Chrome or Edge browser. GitHub's source viewer does not execute the editor. Internet access is unnecessary after downloading the HTML.
+Download an Editor.html file and open it on a desktop or laptop in a current Chrome or Edge browser. GitHub's source viewer does not execute the editor. Internet access is unnecessary after downloading the HTML.
 
 ## Editing features
 
@@ -36,7 +36,7 @@ The original illustration sources are 1060 Ã— 1484 pixels, equivalent to 212 
 8. Run the included verification script after renderer changes. Its scriptable read-only `window.InvitationEditor` interface exposes status, fields, layout, configuration and export functions for inspection. Do not ship changes with unexplained failing checks.
 9. Re-export the final preview from the exact final saved HTML and record its SHA-256 hash. Follow the user's output path and review boundary.
 
-The interface keeps the supplied editor's product titles and restrained neutral layout, with a design-specific accent. No shop name or logo was supplied, so no separate shop identity is invented or claimed as approved. For another brand, use the user's approved brand assets and check the resulting layout.
+The editor interface uses **Norvella House**, the existing NH shop monogram, and the shop banner's tagline, with a warm cream, gold and olive palette adapted from the supplied Etsy reference. See [brand provenance and implementation rules](brand/BRAND.md). The wordmark font and numeric palette are visual adaptations, not a claim of a supplied formal brand manual. Branding appears in the interface and support links; it is excluded from invitation exports. Use a desktop or laptop, matching the shop FAQ; mobile viewport checks cover layout only.
 
 ## Repeat verification
 
@@ -47,6 +47,7 @@ python -m pip install -r requirements.txt
 python -m playwright install chromium
 python scripts/verify.py
 python scripts/verify_controls.py
+python scripts/verify_brand.py
 ```
 
 Local test evidence goes into the ignored `qa-local/` directory. The committed [verification record](verification/RESULTS.json) records the supplied files and the checks actually performed. Tests cover Chromium with desktop and mobile viewport sizes; this is not a claim of testing every browser, physical phone, screen reader or printer.
@@ -62,3 +63,8 @@ For Etsy buyer delivery, package the HTML with opening/extraction instructions i
 - [Name case and length matrix](verification/name-matrix-review.jpg)
 - [All embedded English glyphs](verification/glyph-sheet.png)
 - [Cleanup method and prompts](verification/CLEANUP.md)
+
+The latest brand revision and final HTML hashes are recorded in [BRAND-UPDATE.json](verification/BRAND-UPDATE.json). The original functional suite remains recorded in RESULTS.json; the rendering engine was unchanged by this branding update.
+
+- [Branded desktop editor](verification/whale-birthday-branded-1440.png)
+- [Branded narrow viewport](verification/pumpkin-gender-reveal-branded-390.png)

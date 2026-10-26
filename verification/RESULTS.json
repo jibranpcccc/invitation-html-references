@@ -1245,5 +1245,7 @@
       "print_exports_remain_blocked": true
     }
   },
-  "final_assertion_failures": []
+  "final_assertion_failures": [],
+  "brand_revision_record": "BRAND-UPDATE.json",
+  "brand_revision_note": "The latest branding-only HTML hashes and unchanged invitation export checks are in BRAND-UPDATE.json. Earlier hashes below identify the functional baseline tested before the brand header/footer update."
 }

@@ -1,5 +1,7 @@
 # Reference contract
 
+Brand: **Norvella House**. Read `brand/BRAND.md` for verified source assets, interface styling and desktop/laptop support wording. Keep branding out of invitation exports.
+
 Scope changes to the assigned products. The user's instructions and approved master protocol take precedence.
 
 - Treat these HTML editors as reusable engineering references; each new product still requires visual calibration and a validated clean background.
