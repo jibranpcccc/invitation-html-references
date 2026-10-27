@@ -1,0 +1,27 @@
+{
+  "field_controls_tested": 40,
+  "save_load_controls": true,
+  "blank_field_block_and_recover": 5,
+  "png_size": [
+    1500,
+    2100
+  ],
+  "png_dpi": [
+    299.9994,
+    299.9994
+  ],
+  "pdf_points": [
+    360,
+    504
+  ],
+  "offline": true,
+  "errors": [],
+  "html_sha256": "7279146f3aaa9d037e3958e933a1bed89adffbb6e0a6ae36c23dc283e8117e00",
+  "preview_sha256": "c36e5464c0745fb9a31e1326d95c640e8be890ae6ba205ec5d294ed595a84315",
+  "default_pixels_unchanged": true,
+  "pdf_matches_png": true,
+  "quick_fill_changes_preview": true,
+  "undo_redo_and_personalized_html": true,
+  "reference": "P021 per-field typography and placement controls",
+  "scope": "Whale editor only"
+}
